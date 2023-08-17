@@ -58,7 +58,8 @@ Fresh Food is a technology company first, but with a major focus on consumer wel
 ## Useful resources
 
 - [Badges](https://home.aveek.io/GitHub-Profile-Badges/)
-- 
+- [Tints and Shades](https://maketintsandshades.com/)
+- []()
 
 
 ## 😎 Author
