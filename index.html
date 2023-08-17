@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Fresh Food</title>
+      <!-- Place `favicon.ico` in the root directory. -->
+      <!-- <link href="/apple-touch-icon.png" rel="apple-touch-icon"> -->
+   
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="assets/css/queries.css">
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+
+      <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+   </head>
+
+   <body>
+      <header id="header">
+         <a href="index.html">
+            <img id="logo" src="assets/images/fresh-food.png" alt="Logo Fresh Food">
+         </a>
+   
+         <nav id="main-navigation">
+            <ul class="navigation-list">
+               <li><a class="navigation-link" href="#">Comment faire ?</a></li>
+               <li><a class="navigation-link" href="#">Plats</a></li>
+               <li><a class="navigation-link" href="#">Avis</a></li>
+               <li><a class="navigation-link" href="#">Prix</a></li>
+               <li><a class="navigation-link cta" href="#">Essayer gratuitement</a></li>
+            </ul>
+         </nav>
+
+         <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+      </header>
+
+      <main>
+         <section id="hero-section">
+            <div class="hero-section">
+               <article class="hero-text-box">
+                  <h1 class="heading-primary">Un repas sain livré à votre porte, tous les jours de l'année</h1>
+                  <p class="hero-description">
+                     L’abonnement alimentaire intelligent 365 jours par an qui vous fera manger à nouveau sainement. Adapté à vos goûts personnels et à vos besoins nutritionnels.
+                  </p>
+   
+                  <!-- Hero CTA -->
+                  <a href="#" class="button main-cta margin-right-sm">Commencer à bien manger</a>
+                  <a href="#" class="button secondary-cta">En savoir plus &darr;</a>
+   
+                  <!-- Delivered Meals -->
+                  <div class="delivered-meals">
+                     <div class="delivered-customer-faces">
+                        <img src="assets/images/customers/customer-1.jpg" alt="Customer 1">
+                        <img src="assets/images/customers/customer-2.jpg" alt="Customer 2">
+                        <img src="assets/images/customers/customer-3.jpg" alt="Customer 3">
+                        <img src="assets/images/customers/customer-4.jpg" alt="Customer 4">
+                        <img src="assets/images/customers/customer-5.jpg" alt="Customer 5">
+                        <img src="assets/images/customers/customer-6.jpg" alt="Customer 6">
+                     </div>
+   
+                     <p class="delivered-text">
+                        <span>+ 250,000</span> repas livrés l’an dernier !
+                     </p>
+                  </div>
+               </article>
+
+               <article class="hero-image-box">
+                  <img
+                     class="hero-image"
+                     src="assets/images/hero.png"
+                     alt="Woman enjoying food, meals in storage container, and food bowls on a table">  
+               </article>
+            </div>
+         </section>
+
+         <section id="features-section">
+            <article class="container">
+               <h2 class="heading-features">En collaboration avec</h2>
+               <div class="logos">
+                  <img src="assets/images/logos/techcrunch.png" alt="Techcrunch logo">
+                  <img src="assets/images/logos/business-insider.png" alt="Business Insider logo">
+                  <img src="assets/images/logos/the-new-york-times.png" alt="The New York Times logo">
+                  <img src="assets/images/logos/forbes.png" alt="Forbes logo">
+                  <img src="assets/images/logos/usa-today.png" alt="USA Today logo">
+               </div>
+            </article>
+         </section>
+
+         <section id="how-section">
+            <div class="container">
+               <span class="subtitle">Comment ça marche</span>
+               <h2 class="heading-secondary">Votre dose quotidienne de santé en 3 étapes simples</h2>
+            </div>
+   
+            <div class="container grid grid-2-cols grid-center-v">
+               <!-- Step One -->
+               <article class="step-text-box">
+                  <p class="step-number">01</p>
+                  <h3 class="heading-tertiary">Dites-nous ce que vous aimez (ou pas)</h3>
+                  <p class="step-description">
+                     Ne perdez plus jamais de temps à penser à quoi faire pour manger ! Fresh Food AI créera un plan de repas hebdomadaire 100% personnalisé pour vous. Il s’assure que vous obtenez tous les nutriments et les vitamines dont vous avez besoin, peu importe le régime que vous suivez !
+                  </p>
+               </article>
+
+               <figure class="step-image-box">
+                  <img class="step-image" src="assets/images/app/app-screen-1.png" alt="iPhone app preferences selection screen">
+                  <figcaption>Écran de sélection des préférences de l’application</figcaption>
+               </figure>
+   
+               <!-- Step Two -->
+               <figure class="step-image-box">
+                  <img class="step-image" src="assets/images/app/app-screen-2.png" alt="iPhone app meal plan screen">
+                  <figcaption>Écran du plan de repas de l’application</figcaption>
+               </figure>
+
+               <article class="step-text-box">
+                  <p class="step-number">02</p>
+                  <h3 class="heading-tertiary">Approuver votre plan de repas hebdomadaire</h3>
+                  <p class="step-description">
+                     Une fois par semaine, approuvez le plan de repas généré pour vous par Fresh Food AI. Vous pouvez changer les ingrédients, échanger des repas entiers ou même ajouter vos propres recettes.
+                  </p>
+               </article>
+   
+               <!-- Step Three -->
+               <article class="step-text-box">
+                  <p class="step-number">03</p>
+                  <h3 class="heading-tertiary">Recevez vos repas au moment opportun</h3>
+                  <p class="step-description">
+                     Notre équipe cuisinera votre repas sélectionné, et nous les livrerons à votre porte quand cela vous convient le mieux. Vous pouvez modifier le calendrier de livraison et l’adresse quotidienne !
+                  </p>
+               </article>
+
+               <figure class="step-image-box">
+                  <img class="step-image" src="assets/images/app/app-screen-3.png" alt="iPhone app delivery screen">
+                  <figcaption>Écran du plan de repas de l’application</figcaption>
+               </figure>
+            </div>
+         </section>
+
+         <section id="meals-section">
+            <article class="container text-center">
+               <span class="subtitle">Plats</span>
+               <h2 class="heading-secondary">Fresh Food AI choisi parmi plus de + 5000 recettes</h2>
+            </article>
+   
+            <div class="container grid grid-3-cols margin-bottom-md">
+               <article class="meal">
+                  <img class="meal-image" src="assets/images/meals/meal-1.jpg" alt="Japanese Gyozas">
+                  <div class="meal-content">
+                     <div class="meal-tags">
+                        <span class="tag tag-vegetarian">Vegetarien</span>
+                     </div>
+                     <p class="meal-title">Japanese Gyozas</p>
+                     <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                           <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                           <span><strong>650</strong> calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                           <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                           <span>NutriScore &reg; <strong>74</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                           <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                           <span><strong>4.9</strong> rating (537)</span>
+                        </li>
+                     </ul>
+                  </div>
+               </article>
+   
+               <article class="meal">
+                  <img class="meal-image" src="assets/images/meals/meal-2.jpg" alt="Avocado Salad">
+                  <div class="meal-content">
+                     <div class="meal-tags">
+                        <span class="tag tag-vegan">Vegan</span>
+                        <span class="tag tag-paleo">Paleo</span>
+                     </div>
+                     <p class="meal-title">Salade d'Avocat</p>
+                     <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                           <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                           <span><strong>400</strong> calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                           <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                           <span>NutriScore &reg; <strong>92</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                           <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                           <span><strong>4.8</strong> rating (441)</span>
+                        </li>
+                     </ul>
+                  </div>
+               </article>
+   
+               <article class="diets">
+                  <h3 class="heading-tertiary">Peu importe votre diet :</h3>
+                  <ul class="diets-list">
+                     <li class="diet-list-item">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>Vegetarian</span>
+                     </li>
+                     <li class="diet-list-item">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>Vegan</span>
+                     </li>
+                     <li class="diet-list-item">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>Pescatarian</span>
+                     </li>
+                     <li class="diet-list-item">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>Sans Gluten</span>
+                     </li>
+                     <li class="diet-list-item">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>Sans Lactose</span>
+                     </li>
+                     <li class="diet-list-item">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>Keto</span>
+                     </li>
+                     <li class="diet-list-item">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>Paleo</span>
+                     </li>
+                     <li class="diet-list-item">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>Adapté aux enfants</span>
+                     </li>
+                  </ul>
+               </article>
+            </div>
+
+            <article class="container all-recipes">
+               <a href="#" class="link">Voir toutes les recettes &rarr;</a>
+            </article>
+         </section>
+
+         <section id="testimonials-section">
+            <article class="testimonials-section">
+               <span class="subtitle">Testimonials</span>
+               <h2 class="heading-secondary">Un fois que vous l'aurez testé, vous ne pourrez plus vous en passer</h2>
+
+               <div class="testimonials">
+                  <figure class="testimonial">
+                     <figcaption>Avis de l'utilisateur Kayden ADON</figcaption>
+                     <img src="assets/images/customers/kayden.jpg" alt="Photo of customer Dave Bryson" class="testimonial-image">
+                     <blockquote class="testimonial-text">
+                        Des repas peu coûteux, sains et savoureux, sans même avoir à les commander manuellement! C’est vraiment magique.
+                     </blockquote>
+                     <p class="testimonial-name">&mdash; Kayden ADON</p>
+                  </figure>
+
+                  <figure class="testimonial">
+                     <figcaption>Avis de l'utilisateur Benjamin Dufour</figcaption>
+                     <img src="assets/images/customers/ben.jpg" alt="Photo of customer Benjamin Dufour" class="testimonial-image">
+                     <blockquote class="testimonial-text">
+                        L’algorithme de Fresh Food AI est incroyablement bon, il choisit les bons repas pour moi à chaque fois. C’est incroyable de ne plus se soucier de la nourriture !
+                     </blockquote>
+                     <p class="testimonial-name">&mdash; Benjamin Dufour</p>
+                  </figure>
+
+                  <figure class="testimonial">
+                     <figcaption>Avis de l'utilisateur Nicolas Texier</figcaption>
+                     <img src="assets/images/customers/nicolas.jpg" alt="Photo of customer Nicolas Texier" class="testimonial-image">
+                     <blockquote class="testimonial-text">
+                        Fresh Food est un game changer ! Je viens de démarrer mon entreprise, du coup je n'ai pas beaucoup de temps pour cuisiner. Je ne pourrai pas vivre sans mes repas quotidiens maintenant !
+                     </blockquote>
+                     <p class="testimonial-name">&mdash; Nicolas Texier</p>
+                  </figure>
+
+                  <figure class="testimonial">
+                     <figcaption>Avis de l'utilisateur Hannaelle Donis</figcaption>
+                     <img src="assets/images/customers/hannaelle.jpg" alt="Photo of customer Hannaelle Donis" class="testimonial-image">
+                     <blockquote class="testimonial-text">
+                        J’ai un emploi du temps très soutenu, je dois jongler entre ma nouvelle carrière et ma famille et ce n'est pas toujours évident de manger sainement. Fresh Food me permet de rester concentrer, d'apporter une alimentation saine à ma famille et de gagner du temps.
+                     </blockquote>
+                     <p class="testimonial-name">&mdash; Hannaelle Donis</p>
+                  </figure>
+               </div>
+            </article>
+
+            <!-- Gallery -->
+            <article id="gallery">
+               <figure class="gallery-item">
+                  <figcaption>Photo d'un jolie plat bien arrangé</figcaption>
+                  <img src="assets/images/gallery/gallery-1.jpg" alt="Photo of beautifully arranged food">
+               </figure>
+
+               <figure class="gallery-item">
+                  <figcaption>Photo d'un jolie plat bien arrangé</figcaption>
+                  <img src="assets/images/gallery/gallery-2.jpg" alt="Photo of beautifully
+                  arranged food">
+               </figure>
+
+               <figure class="gallery-item">
+                  <figcaption>Photo d'un jolie plat bien arrangé</figcaption>
+                  <img src="assets/images/gallery/gallery-3.jpg" alt="Photo of beautifully
+                  arranged food">
+               </figure>
+
+               <figure class="gallery-item">
+                  <figcaption>Photo d'un jolie plat bien arrangé</figcaption>
+                  <img src="assets/images/gallery/gallery-4.jpg" alt="Photo of beautifully
+                  arranged food">
+               </figure>
+
+               <figure class="gallery-item">
+                  <figcaption>Photo d'un jolie plat bien arrangé</figcaption>
+                  <img src="assets/images/gallery/gallery-5.jpg" alt="Photo of beautifully
+                  arranged food">
+               </figure>
+
+               <figure class="gallery-item">
+                  <figcaption>Photo d'un jolie plat bien arrangé</figcaption>
+                  <img src="assets/images/gallery/gallery-6.jpg" alt="Photo of beautifully
+                  arranged food">
+               </figure>
+
+               <figure class="gallery-item">
+                  <figcaption>Photo d'un jolie plat bien arrangé</figcaption>
+                  <img src="assets/images/gallery/gallery-7.jpg" alt="Photo of beautifully
+                  arranged food">
+               </figure>
+
+               <figure class="gallery-item">
+                  <figcaption>Photo d'un jolie plat bien arrangé</figcaption>
+                  <img src="assets/images/gallery/gallery-8.jpg" alt="Photo of beautifully
+                  arranged food">
+               </figure>
+
+               <figure class="gallery-item">
+                  <figcaption>Photo d'un jolie plat bien arrangé</figcaption>
+                  <img src="assets/images/gallery/gallery-9.jpg" alt="Photo of beautifully
+                  arranged food">
+               </figure>
+
+               <figure class="gallery-item">
+                  <figcaption>Photo d'un jolie plat bien arrangé</figcaption>
+                  <img src="assets/images/gallery/gallery-10.jpg" alt="Photo of beautifully
+                  arranged food">
+               </figure>
+
+               <figure class="gallery-item">
+                  <figcaption>Photo d'un jolie plat bien arrangé</figcaption>
+                  <img src="assets/images/gallery/gallery-11.jpg" alt="Photo of beautifully
+                  arranged food">
+               </figure>
+
+               <figure class="gallery-item">
+                  <figcaption>Photo d'un jolie plat bien arrangé</figcaption>
+                  <img src="assets/images/gallery/gallery-12.jpg" alt="Photo of beautifully
+                  arranged food">
+               </figure>
+            </article>
+         </section>
+
+         <section id="pricing-section">
+            <article class="container">
+               <span class="subtitle">Prix</span>
+               <h2 class="heading-secondary">Bien manger sans se ruiner</h2>
+            </article>
+
+            <article class="container grid grid-2-cols margin-bottom-md">
+               <div class="pricing-plan pricing-plan-coconut">
+                  <header class="header-pricing-card">
+                     <p class="plan-name">Coconut 🥥</p>
+                     <p class="plan-price">399 €<br>
+                        <span>par mois</span>
+                     </p>
+                     <p class="plan-text">C'est 13 € par repas</p>
+                  </header>
+                  <ul class="listing-properties-plan">
+                     <li class="listing-plan-item">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>1 repas par jour</span>
+                     </li>
+
+                     <li class="listing-plan-item">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>Livré entre 9h et 11h du matin</span>
+                     </li>
+
+                     <li class="listing-plan-item">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>Livraison gratuite</span>
+                     </li>
+
+                     <li class="listing-plan-item">
+                        <ion-icon class="list-icon" name="close-outline"></ion-icon>
+                     </li>
+                  </ul>
+
+                  <div class="plan-sing-up">
+                     <a href="#"
+                        class="button main-cta">Commencer votre essai gratuit
+                     </a>
+                  </div>
+               </div>
+
+               <div class="pricing-plan pricing-plan-mango">
+                  <header class="header-pricing-card">
+                     <p class="plan-name">Mango 🥭</p>
+                     <p class="plan-price">
+                        649 €<br>
+                        <span class="little-text">par mois</span>
+                     </p>
+                     <p class="plan-text">C'est 11 € par repas</p>
+                  </header>
+                  <ul class="listing-properties-plan">
+                     <li class="listing-plan-item">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span><strong></strong>2 repas</strong> par jour</span>
+                     </li>
+
+                     <li class="listing-plan-item">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>Livré entre 9h et 11h du matin</span>
+                     </li>
+
+                     <li class="listing-plan-item">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>Livraison gratuite</span>
+                     </li>
+                  </ul>
+
+                  <div class="pricing-plan ">
+                     <div class="plan-sing-up">
+                        <a href="#"
+                        class="button main-cta">Commencer votre essai gratuit
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </article>
+
+            <div class="container grid">
+               <aside class="plan-details">
+                  Les prix comprennent toutes les taxes applicables. Vous pouvez annuler en tout temps. Les deux forfaits comprennent ce qui suit :
+               </aside>
+            </div>
+
+            <article class="container grid grid-4-cols">
+               <div class="feature">
+                  <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+                  <p class="feature-title">Locale et biologique</p>
+                  <p class="feature-text">
+                     Nos cuisiniers utilisent uniquement des produits locaux, frais et biologiques pour préparer vos repas.
+                  </p>
+               </div>
+
+               <div class="feature">
+                  <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+                  <p class="feature-title">Ne cuisinez plus jamais !</p>
+                  <p class="feature-text">
+                     Votre abonnement couvre 365 jours par an et même les jours fériés.
+                  </p>
+               </div>
+
+               <div class="feature">
+                  <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+                  <p class="feature-title">Pas de déchets</p>
+                  <p class="feature-text">
+                     Tous nos partenaires utilisent uniquement des contenants réutilisables pour emballer tous vos repas.
+                  </p>
+               </div>
+
+               <div class="feature">
+                  <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+                  <p class="feature-title">Faites pause à tout moment</p>
+                  <p class="feature-text">
+                     Vous partez en vacances ? Il suffit de suspendre votre abonnement, et nous vous remboursons les jours non utilisés.
+                  </p>
+               </div>
+            </article>
+         </section>
+
+         <section id="cta-section">
+            <div class="container">
+               <article class="cta">
+                  <div class="cta-text-box">
+                     <h2 class="heading-secondary">
+                        Obtenez votre premier repas gratuitement !
+                     </h2>
+                     <p class="cta-text">
+                        Des repas sains, savoureux et sans tracas vous attendent. Commencer à bien manger aujourd’hui. Vous pouvez annuler ou interrompre votre abonnement à tout moment<br>
+                        Le premier repas est pour nous !
+                     </p>
+
+                     <form action="#" class="cta-form">
+                        <div>
+                           <label for="full-name">Nom et Prénom</label>
+                           <input id="full-name" type="text" placeholder="Karibbean Creative" required>
+                        </div>
+
+                        <div>
+                           <label for="email">Email</label>
+                           <input id="email" type="email" placeholder="karibbeancreative@gmail.com" required>
+                        </div>
+
+                        <div>
+                           <label for="select-where">Où vous nous avez connu ?</label>
+                           <select id="select-where" name="" required>
+                              <option value="Choissisez une option :">Choissisez une option :</option>
+                              <option value="friends">Amis et famille</option>
+                              <option value="youtube">Video Youtube</option>
+                              <option value="podcast">Podcast</option>
+                              <option value="facebook">Facebook</option>
+                              <option value="others">Autres</option>
+                           </select>
+                        </div>
+
+                        <button class="button button-form">S'inscrire maintenant</button>
+                     </form>
+                  </div>
+
+                  <div class="cta-img-box" role="img" aria-label="Femme dégustant son repas">
+                  </div>
+               </article>
+            </div>
+         </section>   
+      </main>
+
+      <footer id="footer">
+         <div class="container grid grid-footer">
+            <article class="logo-col">
+               <a href="#" class="footer-logo">
+                  <img id="logo" src="assets/images/fresh-food.png" alt="Fresh Food logo">
+               </a>
+
+               <ul class="social-links">
+                  <li>
+                     <a class="footer-link" href="#">
+                        <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+                     </a>
+                  </li>
+
+                  <li>
+                     <a class="footer-link" href="#">
+                        <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+                     </a>
+                  </li>
+
+                  <li>
+                     <a class="footer-link" href="#">
+                        <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+                     </a>
+                  </li>
+               </ul>
+
+               <p class="copyright">
+                  <small>Copyright © 2023 by Karibbean Creative <sup>®</sup><br>
+                     All rights reserved</small>
+               </p>
+            </article>
+
+            <article class="address-col">
+               <p class="footer-heading">Contactez-nous !</p>
+               <address class="contacts">
+                  <p class="address">
+                     623 Avenue Frantz Fanon, Peaux noires et Masque Blancs, Guadeloupe
+                  </p>
+
+                  <p>
+                     <a class="footer-link" href="tel:0690218904">0690 218 904</a>
+                     <br>
+                     <a class="footer-link" href="mailto:karibbeancreative@gmail.com">karibbeancreative@gmail.com</a>
+                  </p>
+               </address>
+            </article>
+
+            <nav class="nav-col">
+               <p class="footer-heading">Mon compte</p>
+               <ul class="footer-nav">
+                  <li><a class="footer-link" href="#">S'inscrire</a></li>
+                  <li><a class="footer-link" href="#">Se connecter</a></li>
+                  <li><a class="footer-link" href="#">Application iOS</a></li>
+                  <li><a class="footer-link" href="#">Application Android</a></li>
+               </ul>
+            </nav>
+   
+            <nav class="nav-col">
+               <p class="footer-heading">Fresh Food</p>
+               <ul class="footer-nav">
+                  <li><a class="footer-link" href="#">A propos</a></li>
+                  <li><a class="footer-link" href="#">Collaboration</a></li>
+                  <li><a class="footer-link" href="#">Partenaire</a></li>
+                  <li><a class="footer-link" href="#">Carrière</a></li>
+               </ul>
+            </nav>
+   
+            <nav class="nav-col">
+               <p class="footer-heading">Ressources</p>
+               <ul class="footer-nav">
+                  <li><a class="footer-link" href="#">Carnet de recettes</a></li>
+                  <li><a class="footer-link" href="#">Centre d'aide</a></li>
+                  <li><a class="footer-link" href="#">Partenaires</a></li>
+                  <li><a class="footer-link" href="#">Confidentialité et CGU</a></li>
+               </ul>
+            </nav>
+         </div>
+      </footer>
+   </body>
+</html>
